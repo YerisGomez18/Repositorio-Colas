@@ -1,0 +1,67 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-color: #F2F2F2; }
+
+button{
+    outline: none;
+    border: none;
+    background-color: #FF8C32;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;    
+}
+button:hover{
+    cursor: pointer;
+    background-color: #f3791b;
+}
+.unifila__servers{
+    background-color: #D4ECDD;
+    padding: 1.8rem 1rem;
+}
+
+.tarjeta_contenedor{
+    display: flex;
+}
+.tarjeta{
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 1rem .8rem;
+    background-color: #D4ECDD;
+}
+.tarjeta__valor,
+.tarjeta__valor1{
+    font-weight: bold;
+    font-size: 18px;
+    color: #810000;
+    margin-bottom: .4rem;
+}
+.tarjeta__valor1{
+    color: darkblue;
+}
+.tarjeta__titulo{
+    font-weight: bold;
+    font-size: 17px;
+    color: #000000;
+}
+.tarjeta__descripcion span{
+    font-weight: bold;
+    color: #000000;
+    font-size: 17px;
+}
+.tarjeta__descripcion p{
+    color: #ccc;
+    font-weight: bold;
+}
+.tarjeta__footer,
+.tarjeta__footer1{
+    color: #810000;
+    font-size: 11px;
+}
+
+.tarjeta__footer1{
+    color: #000000;
+}

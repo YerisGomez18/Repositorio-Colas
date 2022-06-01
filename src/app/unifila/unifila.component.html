@@ -1,0 +1,27 @@
+<h2 class="text-center">Todos los valores deben digitarse</h2>
+<div class="unifila">
+    <div class="unifila__servers">
+        <h4 class="unifila__titulo">C</h4>
+        <input class="unifila__input" type="text" placeholder="C" value="5">
+        <p class="unifila__descripcion">Number of servers</p>
+        <footer class="unifila__footer">
+            <p>Number of servers in parallel <br> open to attend customers.</p>
+        </footer>
+    </div><!--servers-->
+    <div class="arrival">
+        <h4 class="arrival__titulo">Arrival and Service rates</h4>
+
+        <div class="arrival__campo">
+            <label class="arrival__label" for="service rate">λ Arrivals / Hour</label>
+            <input type="text" id="service" name="service"  class="arrival__input" placeholder="Service rate" value="3">
+        </div><!--campo-->
+
+        <div class="arrival__campo">
+            <label class="arrival__label" for="service rate">μ Services / Hour</label>
+            <input type="text" class="arrival__input" placeholder="Service rate" value="5">
+        </div>
+    </div><!--arrival-->
+</div><!--unifila-->
+<div class="div__boton">
+    <button mat-button matStepperNext class="unifila__boton">Calcular</button>
+</div><!--botoon-->

@@ -1,0 +1,45 @@
+
+.header{
+    background-color: #00092C;
+    padding: 12px;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__titulo{
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.header__autor{
+    margin-bottom: 0;
+}
+.header__autor span{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 7rem;
+}
+.titulo__principal{
+    margin-top: 2rem;
+    text-align: center;
+    color: #00092C;
+    font-weight: bold;
+}
+.footer{
+    background-color: #DAE5D0;
+    text-align: center;
+    color: #00092C;
+    padding: 1rem;
+    font-weight: bold;
+}
+.footer p{
+    margin: 0;
+}
